@@ -1,0 +1,14 @@
+{
+  "generated_at_utc": "2026-11-06T09:30:12.180165+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_code_sha256": {
+    "src/losslens/__init__.py": "aa65c966a00953c3218d97c7e5f615adfa2ce0ec14f868858404d112993b5eb5",
+    "src/losslens/app.py": "90f6232936d87dcd48a00f14629726bc4c421d2c3a2766ffbaf5d447bdb276f0",
+    "src/losslens/cli.py": "b208ac9c9541fd30ca80271550388a9d2a3a3d872c1d59264dd0372d8795e3e2",
+    "src/losslens/data.py": "00e7ebb936bc91133dea746d12ccac3c92278434765b2e1f1b04c8a294eedfd3",
+    "src/losslens/io.py": "663f4f0fd647f96163b1e8446ffc4fc9f39a69e543e110eff27537e66106acd6",
+    "src/losslens/models.py": "11c7d776c4b235d288f2559e18b3ebcd52152c9152c678d7c588945499697d30",
+    "src/losslens/pipeline.py": "716aaaffad5d6a0406cec3afdcf52bb77181052fb45aed497652b84f5b023511"
+  }
+}

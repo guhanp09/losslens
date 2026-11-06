@@ -1,0 +1,18 @@
+{
+  "frequency.parquet.provenance.json": {
+    "url": "https://data.openml.org/datasets/0004/41214/dataset_41214.pq",
+    "observed_at_utc": "2026-11-06T09:24:31.202349+00:00",
+    "retrieved_at_utc": null,
+    "sha256": "aead80a9ac68baf2c78fc1beaa287441d88d06cc11be60a1f226784d164c6dd7",
+    "bytes": 7469711,
+    "note": "Existing local download; original retrieval timestamp not captured"
+  },
+  "severity.parquet.provenance.json": {
+    "url": "https://data.openml.org/datasets/0004/41215/dataset_41215.pq",
+    "observed_at_utc": "2026-11-06T09:24:31.350852+00:00",
+    "retrieved_at_utc": null,
+    "sha256": "c721d570c42eeaf4a70cc12f4c1e04095a6046f6cdbc01fad919274879783e60",
+    "bytes": 277195,
+    "note": "Existing local download; original retrieval timestamp not captured"
+  }
+}

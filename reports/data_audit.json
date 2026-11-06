@@ -1,0 +1,15 @@
+{
+  "frequency_rows": 678013,
+  "severity_rows": 26639,
+  "unmatched_severity_rows": 195,
+  "unmatched_severity_amount": 788714.1800000002,
+  "duplicate_frequency_ids": 0,
+  "missing_values": 0,
+  "exposure_over_one_year": 1224,
+  "notified_claims": 36102,
+  "matched_positive_payment_claims": 26444,
+  "claim_count_disagreements": 9117,
+  "matched_paid_loss": 59909216.5,
+  "target": "positive-payment claim count and observed matched payment amounts; not ultimate notified claims",
+  "treatment": "all positive exposures and claim amounts retained; orphan severity rows excluded and quantified; no winsorization"
+}

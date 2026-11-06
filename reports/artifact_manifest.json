@@ -1,0 +1,103 @@
+{
+  "checks_passed": 22,
+  "checks": [
+    "All numerical metrics are finite",
+    "Generated results match the current analytical source files",
+    "PDF report has a valid document header",
+    "Analysis includes substantive methods and limitations",
+    "pricing_review.xlsx workbook structure",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet1.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet1.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet2.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet2.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet3.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet3.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet4.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet4.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet5.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet5.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet6.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet6.xml",
+    "pricing_review.xlsx has no cached Excel errors in xl/worksheets/sheet7.xml",
+    "pricing_review.xlsx has no broken references in xl/worksheets/sheet7.xml",
+    "Policy partitions account for every modelled policy",
+    "No policy appears in multiple split assignments",
+    "Selection follows validation deviance"
+  ],
+  "workbooks": [
+    {
+      "file": "pricing_review.xlsx",
+      "formula_count": 0
+    }
+  ],
+  "artifacts": {
+    "age_calibration.csv": {
+      "bytes": 572,
+      "sha256": "f7fed5a54e7fe62358d7b6b2c80a372ee108e649bfbe01983f42dca2a096f46b"
+    },
+    "analysis.md": {
+      "bytes": 2588,
+      "sha256": "3477988f6687c8da4ff5f657df17109f9214f59c51ff2ff959ef1204f2b6dc02"
+    },
+    "analysis.pdf": {
+      "bytes": 3486,
+      "sha256": "68c813e541f70cfa049d8b59c9d66104047385331f97d5aa56f9a35d4dab410d"
+    },
+    "build_manifest.json": {
+      "bytes": 835,
+      "sha256": "c725c45e50d0de0add2e7bcc1f6ae8bc41b91c968017d6552e7e6fb8a64df331"
+    },
+    "calibration.html": {
+      "bytes": 4860423,
+      "sha256": "8fce3728ac4c740fb8743fa8950278c7a74aa7a19a39401d668f306630b11a90"
+    },
+    "data_audit.json": {
+      "bytes": 617,
+      "sha256": "221f3783bc82799ba2d8706622f77f6da8a74f88a2e4241f5623f0a7cfa63b72"
+    },
+    "limited_loss_curves.csv": {
+      "bytes": 1231,
+      "sha256": "43a2b1d77904d9cdece51e2bc9fcf3bb0573fc6f161c2a329ace6228d4b10376"
+    },
+    "limited_loss_curves.html": {
+      "bytes": 4861123,
+      "sha256": "cdf8bd2375ed8c0e8a460dc4da7fb3a30ff5792d7cead1ac2671b6942343b723"
+    },
+    "metrics.json": {
+      "bytes": 4759,
+      "sha256": "fb3db49d587227c7f80cffddf55f9d38f151cbe3a62f01496ed0541a38718686"
+    },
+    "model_comparison.csv": {
+      "bytes": 1421,
+      "sha256": "f32885ea5e2ccc5d2ee50f1e8ac8646bcbce2c85fc95dfe787f9a3efa2606d2d"
+    },
+    "policy_splits.csv": {
+      "bytes": 11249192,
+      "sha256": "272c6ef6c6fa9ce5bdfd7e17f32e5d0dbadb8ef719c1716025f330e404ef2626"
+    },
+    "portfolio_scenarios.csv": {
+      "bytes": 648,
+      "sha256": "6bb9ee2c093339eafd7f6a3fc3f5e4c07365b87877e1d82b1be2c2490a0a8117"
+    },
+    "pricing_review.xlsx": {
+      "bytes": 14830,
+      "sha256": "d8a08c5c7b3ac933f6e1cad5e0d6d9320c492991c99f94ff1bccf4fc58f19668"
+    },
+    "region_calibration.csv": {
+      "bytes": 1982,
+      "sha256": "45f2bc9623468f59f6039968a2651b050e5c9d26c886cd5216af88816fe98897"
+    },
+    "risk_calibration.csv": {
+      "bytes": 1134,
+      "sha256": "77ebca3a9e84f70f3a431b1e27772ae941373dfb49c35dc830e0203b37661c8c"
+    },
+    "source_manifest.json": {
+      "bytes": 791,
+      "sha256": "8ec60441188a3f6cc6e94c6cc01921ccbea096dcce721305f523f09ca03a1382"
+    },
+    "tail_sensitivity.csv": {
+      "bytes": 279,
+      "sha256": "d3e85208fe99b4b5f2b5677d1e53909071e71e2dd39467fe6b66d54079c68623"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "policies_modelled": 678013,
+  "full_dataset": true,
+  "train": 406807,
+  "validation": 135603,
+  "test": 135603,
+  "selected_on_validation": "boosted_product",
+  "split": "policy-disjoint random split; no temporal claim",
+  "intervals": {
+    "constant": {
+      "oe_2_5": 0.7775465179516992,
+      "oe_97_5": 1.2411342948812303,
+      "repetitions": 200
+    },
+    "glm_product": {
+      "oe_2_5": 0.8324984290433989,
+      "oe_97_5": 1.3287268283256604,
+      "repetitions": 200
+    },
+    "boosted_product": {
+      "oe_2_5": 0.830045127720303,
+      "oe_97_5": 1.3237534609531003,
+      "repetitions": 200
+    },
+    "tweedie": {
+      "oe_2_5": 0.8060991762734072,
+      "oe_97_5": 1.290456786000191,
+      "repetitions": 200
+    }
+  },
+  "component_diagnostics": {
+    "frequency_poisson_deviance": 0.4554954697836998,
+    "severity_gamma_deviance": 1.5983346166816492
+  },
+  "comparisons": [
+    {
+      "model": "constant",
+      "subset": "train",
+      "tweedie_deviance": 89.16622338239864,
+      "observed_loss": 37232453.54,
+      "expected_loss": 37232453.54,
+      "observed_expected_ratio": 1.0,
+      "policies": 406807,
+      "exposure_years": 215215.75631484392
+    },
+    {
+      "model": "glm_product",
+      "subset": "train",
+      "tweedie_deviance": 81.52173138054337,
+      "observed_loss": 37232453.54,
+      "expected_loss": 34863380.30104543,
+      "observed_expected_ratio": 1.0679530561436559,
+      "policies": 406807,
+      "exposure_years": 215215.75631484392
+    },
+    {
+      "model": "boosted_product",
+      "subset": "train",
+      "tweedie_deviance": 77.95444624005475,
+      "observed_loss": 37232453.54,
+      "expected_loss": 34931533.316103816,
+      "observed_expected_ratio": 1.0658694310116479,
+      "policies": 406807,
+      "exposure_years": 215215.75631484392
+    },
+    {
+      "model": "tweedie",
+      "subset": "train",
+      "tweedie_deviance": 80.0192283975287,
+      "observed_loss": 37232453.54,
+      "expected_loss": 35847740.32851826,
+      "observed_expected_ratio": 1.038627628932587,
+      "policies": 406807,
+      "exposure_years": 215215.75631484392
+    },
+    {
+      "model": "constant",
+      "subset": "validation",
+      "tweedie_deviance": 83.11149352439027,
+      "observed_loss": 10946676.14,
+      "expected_loss": 12351241.900403298,
+      "observed_expected_ratio": 0.8862814143120753,
+      "policies": 135603,
+      "exposure_years": 71394.21698779849
+    },
+    {
+      "model": "glm_product",
+      "subset": "validation",
+      "tweedie_deviance": 78.5938427002264,
+      "observed_loss": 10946676.14,
+      "expected_loss": 11566805.953061316,
+      "observed_expected_ratio": 0.9463871171023501,
+      "policies": 135603,
+      "exposure_years": 71394.21698779849
+    },
+    {
+      "model": "boosted_product",
+      "subset": "validation",
+      "tweedie_deviance": 77.37957652725947,
+      "observed_loss": 10946676.14,
+      "expected_loss": 11614559.890028276,
+      "observed_expected_ratio": 0.9424959915526641,
+      "policies": 135603,
+      "exposure_years": 71394.21698779849
+    },
+    {
+      "model": "tweedie",
+      "subset": "validation",
+      "tweedie_deviance": 79.21552317294667,
+      "observed_loss": 10946676.14,
+      "expected_loss": 11928270.550164785,
+      "observed_expected_ratio": 0.9177085725850489,
+      "policies": 135603,
+      "exposure_years": 71394.21698779849
+    },
+    {
+      "model": "constant",
+      "subset": "test",
+      "tweedie_deviance": 85.95704232446873,
+      "observed_loss": 11730086.82,
+      "expected_loss": 12436921.339111172,
+      "observed_expected_ratio": 0.943166439680828,
+      "policies": 135603,
+      "exposure_years": 71889.47216034135
+    },
+    {
+      "model": "glm_product",
+      "subset": "test",
+      "tweedie_deviance": 79.83869776099134,
+      "observed_loss": 11730086.82,
+      "expected_loss": 11625361.935178425,
+      "observed_expected_ratio": 1.0090083117760555,
+      "policies": 135603,
+      "exposure_years": 71889.47216034135
+    },
+    {
+      "model": "boosted_product",
+      "subset": "test",
+      "tweedie_deviance": 77.74563983578005,
+      "observed_loss": 11730086.82,
+      "expected_loss": 11672090.577624831,
+      "observed_expected_ratio": 1.0049687964627645,
+      "policies": 135603,
+      "exposure_years": 71889.47216034135
+    },
+    {
+      "model": "tweedie",
+      "subset": "test",
+      "tweedie_deviance": 79.79965729819074,
+      "observed_loss": 11730086.82,
+      "expected_loss": 11980247.167944405,
+      "observed_expected_ratio": 0.9791189326532628,
+      "policies": 135603,
+      "exposure_years": 71889.47216034135
+    }
+  ],
+  "target": "positive-payment claim count and observed matched payment amounts; not ultimate notified claims"
+}

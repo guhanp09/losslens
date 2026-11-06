@@ -1,0 +1,10 @@
+{
+  "project": "losslens",
+  "checks_passed": 22,
+  "workbooks": [
+    {
+      "file": "pricing_review.xlsx",
+      "formula_count": 0
+    }
+  ]
+}

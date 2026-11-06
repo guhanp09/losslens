@@ -1,0 +1,11 @@
+{
+  "kind": "public historical French motor third-party liability",
+  "sources": {
+    "frequency": "https://data.openml.org/datasets/0004/41214/dataset_41214.pq",
+    "severity": "https://data.openml.org/datasets/0004/41215/dataset_41215.pq"
+  },
+  "attribution": "C. Dutang and A. Charpentier (2018), CASdatasets; OpenML datasets 41214 and 41215, CC0",
+  "geography": "France",
+  "units": "EUR; exposure years",
+  "target": "positive-payment claim count and observed matched payment amounts; not ultimate notified claims"
+}
